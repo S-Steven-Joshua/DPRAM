@@ -1,0 +1,60 @@
+Qflow migration logfile created on Sat Jul 26 05:21:14 PM IST 2025
+magic -dnull -noconsole  migrate_arch.tcl
+
+Magic 8.3 revision 105 - Compiled on Mon, 06 Dec 2021 22:32:27 +0200.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+"/usr/local/share/qflow/tech/osu018/osu018.tech" isn't a valid tech option.  Type ":tech help" for help.
+Input style lambda=0.20(p): scaleFactor=20, multiplier=1
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+Contact size value ignored (using GDS generation rules).
+4 Magic internal units = 1 Lambda
+Loading "migrate_arch.tcl" from command line.
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )
+
+microns:    0.00 x 0.00    (  0.00,  0.00 ), (  0.00,  0.00 )
+lambda:     0.00 x 0.00    (  0.00,  0.00 ), (  0.00,  0.00 )
+internal:      0 x 0       (     0,  0    ), (     0,  0    )
+Reading LEF data from file /usr/local/share/qflow/tech/osu035/osu035_stdcells.lef.
+This action cannot be undone.
+LEF read, Line 16 (Message): Unknown keyword "OBS" in LEF file; ignoring.
+LEF read, Line 17 (Message): Unknown keyword "PIN" in LEF file; ignoring.
+LEF read: Processed 3179 lines.
+Reading DEF data from file arch.def.
+This action cannot be undone.
+  Processed 3 vias total.
+  Processed 502 subcell instances total.
+  Processed 54 pins total.
+  Processed 474 nets total.
+DEF read, Line 5421 (Warning): Number of nets read (76) does not match the number declared (78).
+DEF read: Processed 5422 lines.
+DEF Read: encountered 1 warning total.
+Generating LEF output arch.lef for cell arch:
+Diagnostic:  Write LEF header for cell arch
+Diagnostic:  Writing LEF output for cell arch
+Diagnostic:  Scale value is 0.050000
+Extracting XNOR2X1 into XNOR2X1.ext:
+Extracting OR2X2 into OR2X2.ext:
+Extracting AND2X2 into AND2X2.ext:
+Extracting NOR2X1 into NOR2X1.ext:
+Extracting OAI22X1 into OAI22X1.ext:
+Extracting NOR3X1 into NOR3X1.ext:
+Extracting XOR2X1 into XOR2X1.ext:
+Extracting NAND3X1 into NAND3X1.ext:
+Extracting OAI21X1 into OAI21X1.ext:
+Extracting FILL into FILL.ext:
+Extracting INVX1 into INVX1.ext:
+Extracting AOI21X1 into AOI21X1.ext:
+Extracting NAND2X1 into NAND2X1.ext:
+Extracting DFFPOSX1 into DFFPOSX1.ext:
+Extracting BUFX2 into BUFX2.ext:
+Extracting arch into arch.ext:
+exttospice finished.
+Migration script ended on Sat Jul 26 05:21:15 PM IST 2025

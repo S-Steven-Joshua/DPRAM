@@ -1,0 +1,225 @@
+Qflow LVS logfile created on Sat Jul 26 05:21:16 PM IST 2025
+netgen ${lvs_options} -batch lvs "${rootname}.spice ${rootname}" 
+	"${synthdir}/${rootname}.spc ${rootname}" ${setup_script} ${outfile} 
+	-json -blackbox
+Netgen 1.5.295 compiled on Mon Jun 23 02:19:00 PM IST 2025
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Generating JSON file result
+Treating empty subcircuits as black-box cells
+Reading netlist file arch.spice
+Reading netlist file /home/kor-tac/Desktop/physical/dpram/synthesis/arch.spc
+
+Reading setup file /usr/local/share/qflow/tech/osu035/osu035_setup.tcl
+
+No property w found for device r
+No property l found for device r
+Error /usr/local/share/qflow/tech/osu035/osu035_setup.tcl:5 (ignoring), No such cell or bad file number!
+Error /usr/local/share/qflow/tech/osu035/osu035_setup.tcl:6 (ignoring), No such cell or bad file number!
+Warning:  There were errors reading the setup file
+Comparison output logged to file comp.out
+Logging to file "comp.out" enabled
+
+Contents of circuit 1:  Circuit: 'NAND2X1'
+Circuit NAND2X1 contains 0 device instances.
+Circuit contains 0 nets.
+Contents of circuit 2:  Circuit: 'NAND2X1'
+Circuit NAND2X1 contains 4 device instances.
+  Class: pfet                  instances:   2
+  Class: nfet                  instances:   2
+Circuit contains 6 nets.
+
+Circuit NAND2X1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'OAI22X1'
+Circuit OAI22X1 contains 0 device instances.
+Circuit contains 0 nets.
+Contents of circuit 2:  Circuit: 'OAI22X1'
+Circuit OAI22X1 contains 8 device instances.
+  Class: pfet                  instances:   4
+  Class: nfet                  instances:   4
+Circuit contains 10 nets.
+
+Circuit OAI22X1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'OAI21X1'
+Circuit OAI21X1 contains 0 device instances.
+Circuit contains 0 nets.
+Contents of circuit 2:  Circuit: 'OAI21X1'
+Circuit OAI21X1 contains 6 device instances.
+  Class: pfet                  instances:   3
+  Class: nfet                  instances:   3
+Circuit contains 8 nets.
+
+Circuit OAI21X1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'INVX1'
+Circuit INVX1 contains 0 device instances.
+Circuit contains 0 nets.
+Contents of circuit 2:  Circuit: 'INVX1'
+Circuit INVX1 contains 2 device instances.
+  Class: pfet                  instances:   1
+  Class: nfet                  instances:   1
+Circuit contains 4 nets.
+
+Circuit INVX1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'OR2X2'
+Circuit OR2X2 contains 0 device instances.
+Circuit contains 0 nets.
+Contents of circuit 2:  Circuit: 'OR2X2'
+Circuit OR2X2 contains 6 device instances.
+  Class: pfet                  instances:   3
+  Class: nfet                  instances:   3
+Circuit contains 7 nets.
+
+Circuit OR2X2 contains no devices.
+
+Contents of circuit 1:  Circuit: 'NOR3X1'
+Circuit NOR3X1 contains 0 device instances.
+Circuit contains 0 nets.
+Contents of circuit 2:  Circuit: 'NOR3X1'
+Circuit NOR3X1 contains 9 device instances.
+  Class: pfet                  instances:   6
+  Class: nfet                  instances:   3
+Circuit contains 8 nets.
+
+Circuit NOR3X1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'XOR2X1'
+Circuit XOR2X1 contains 0 device instances.
+Circuit contains 0 nets.
+Contents of circuit 2:  Circuit: 'XOR2X1'
+Circuit XOR2X1 contains 12 device instances.
+  Class: pfet                  instances:   6
+  Class: nfet                  instances:   6
+Circuit contains 11 nets.
+
+Circuit XOR2X1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'NAND3X1'
+Circuit NAND3X1 contains 0 device instances.
+Circuit contains 0 nets.
+Contents of circuit 2:  Circuit: 'NAND3X1'
+Circuit NAND3X1 contains 6 device instances.
+  Class: pfet                  instances:   3
+  Class: nfet                  instances:   3
+Circuit contains 8 nets.
+
+Circuit NAND3X1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'AOI21X1'
+Circuit AOI21X1 contains 0 device instances.
+Circuit contains 0 nets.
+Contents of circuit 2:  Circuit: 'AOI21X1'
+Circuit AOI21X1 contains 6 device instances.
+  Class: pfet                  instances:   3
+  Class: nfet                  instances:   3
+Circuit contains 8 nets.
+
+Circuit AOI21X1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'BUFX2'
+Circuit BUFX2 contains 0 device instances.
+Circuit contains 0 nets.
+Contents of circuit 2:  Circuit: 'BUFX2'
+Circuit BUFX2 contains 4 device instances.
+  Class: pfet                  instances:   2
+  Class: nfet                  instances:   2
+Circuit contains 5 nets.
+
+Circuit BUFX2 contains no devices.
+
+Contents of circuit 1:  Circuit: 'DFFPOSX1'
+Circuit DFFPOSX1 contains 0 device instances.
+Circuit contains 0 nets.
+Contents of circuit 2:  Circuit: 'DFFPOSX1'
+Circuit DFFPOSX1 contains 22 device instances.
+  Class: pfet                  instances:  11
+  Class: nfet                  instances:  11
+Circuit contains 17 nets.
+
+Circuit DFFPOSX1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'NOR2X1'
+Circuit NOR2X1 contains 0 device instances.
+Circuit contains 0 nets.
+Contents of circuit 2:  Circuit: 'NOR2X1'
+Circuit NOR2X1 contains 4 device instances.
+  Class: pfet                  instances:   2
+  Class: nfet                  instances:   2
+Circuit contains 6 nets.
+
+Circuit NOR2X1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'XNOR2X1'
+Circuit XNOR2X1 contains 0 device instances.
+Circuit contains 0 nets.
+Contents of circuit 2:  Circuit: 'XNOR2X1'
+Circuit XNOR2X1 contains 12 device instances.
+  Class: pfet                  instances:   6
+  Class: nfet                  instances:   6
+Circuit contains 11 nets.
+
+Circuit XNOR2X1 contains no devices.
+
+Contents of circuit 1:  Circuit: 'AND2X2'
+Circuit AND2X2 contains 0 device instances.
+Circuit contains 0 nets.
+Contents of circuit 2:  Circuit: 'AND2X2'
+Circuit AND2X2 contains 6 device instances.
+  Class: pfet                  instances:   3
+  Class: nfet                  instances:   3
+Circuit contains 7 nets.
+
+Circuit AND2X2 contains no devices.
+
+Contents of circuit 1:  Circuit: 'arch'
+Circuit arch contains 422 device instances.
+  Class: NOR3X1                instances:   4
+  Class: OR2X2                 instances:   4
+  Class: NOR2X1                instances:  27
+  Class: NAND3X1               instances:  24
+  Class: OAI22X1               instances:  16
+  Class: DFFPOSX1              instances:  16
+  Class: XOR2X1                instances:  12
+  Class: AOI21X1               instances:  54
+  Class: NAND2X1               instances:  80
+  Class: OAI21X1               instances:  38
+  Class: XNOR2X1               instances:   4
+  Class: BUFX2                 instances:  32
+  Class: AND2X2                instances:   1
+  Class: INVX1                 instances: 110
+Circuit contains 476 nets.
+Contents of circuit 2:  Circuit: 'arch'
+Circuit arch contains 422 device instances.
+  Class: NOR3X1                instances:   4
+  Class: OR2X2                 instances:   4
+  Class: NOR2X1                instances:  27
+  Class: NAND3X1               instances:  24
+  Class: OAI22X1               instances:  16
+  Class: DFFPOSX1              instances:  16
+  Class: XOR2X1                instances:  12
+  Class: AOI21X1               instances:  54
+  Class: NAND2X1               instances:  80
+  Class: OAI21X1               instances:  38
+  Class: XNOR2X1               instances:   4
+  Class: BUFX2                 instances:  32
+  Class: AND2X2                instances:   1
+  Class: INVX1                 instances: 110
+Circuit contains 476 nets.
+
+Circuit 1 contains 422 devices, Circuit 2 contains 422 devices.
+Circuit 1 contains 476 nets,    Circuit 2 contains 476 nets.
+
+
+Final result: 
+Circuits match uniquely.
+.
+Logging to file "comp.out" disabled
+LVS Done.
+/usr/local/share/qflow/scripts/count_lvs.py
+LVS reports no net, device, pin, or property mismatches.
+
+Total errors = 0
+LVS checking script ended on Sat Jul 26 05:21:16 PM IST 2025
