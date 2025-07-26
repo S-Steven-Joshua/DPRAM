@@ -12,14 +12,6 @@ DPRAM is a dual-port RAM block allowing concurrent access through two independen
 
 ---
 
-## Features
-
-- **Dual Ported**: Two independent ports with distinct clocks, addresses, data, and control lines  
-- **Synchronous Operation**: Enables clocked read and write actions  
-- **Configurable Size**: Easily adjustable data-width and depth  
-- **VHDL / Verilog Implementation**: Easily modifiable codebase for synthesis  
-
----
 
 ## Pinout & Interface
 
@@ -37,33 +29,46 @@ DPRAM is a dual-port RAM block allowing concurrent access through two independen
 |       | `we_b`        | Write enable for port B             |
 |       | `re_b`        | Read enable for port B              |
 |       | `data_out_b`  | Read data output from port B        |
-
+---
 
 
 ---
 
-## Architecture
+## 🚀 Features
 
-- Separate read/write logic per port  
-- Dual-clock synchronizer if ports operate on different frequencies  
-- Conflict management for simultaneous writes to the same address (if supported)  
-- Parameterized memory depth and width  
+- Synchronous Dual-Port RAM
+- Independent read/write ports
+- Address decoding logic
+- Collision detection using comparator
+- Verilog HDL implementation
+- Testbench with various test cases
 
 ---
 
-## Getting Started
+## 🧠 Modules Overview
 
-### Prerequisites
+### 1. `dpram.v`
+- Core module implementing the DPRAM logic.
+- Supports two ports with separate address, data, and control lines.
 
-- FPGA toolchain (Xilinx, Intel/Altera, Lattice, etc.)  
-- Simulator: ModelSim, GHDL, Vivado, QuestaSim  
+### 2. `comparator.v`
+- Checks if both ports are accessing the same memory location simultaneously.
+- Can be used to detect and prevent write collisions.
 
-### Installation
+### 3. `decoder.v`
+- Decodes address inputs into select lines for memory access.
+
+---
+
+## 🧪 Testbench (`dpram_tb.v`)
+- Simulates read and write operations.
+- Checks for data consistency.
+- Includes corner cases such as simultaneous writes to the same address.
 
 
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/S‑Steven‑Joshua/DPRAM.git
-   cd DPRAM
+
+
+
+
 
    
