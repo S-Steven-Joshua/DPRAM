@@ -38,7 +38,7 @@ DPRAM is a dual-port RAM block allowing concurrent access through two independen
 |       | `re_b`        | Read enable for port B              |
 |       | `data_out_b`  | Read data output from port B        |
 
-_(Modify table based on your actual module naming of signals)_
+
 
 ---
 
