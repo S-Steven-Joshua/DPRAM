@@ -65,7 +65,7 @@ DPRAM is a dual-port RAM block allowing concurrent access through two independen
 - Checks for data consistency.
 - Includes corner cases such as simultaneous writes to the same address.
 
-
+#
 
 
 
