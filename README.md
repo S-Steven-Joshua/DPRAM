@@ -17,13 +17,13 @@ DPRAM is a dual-port RAM block allowing concurrent access through two independen
 
 | Port  | Signal        | Description                         |
 |-------|---------------|-------------------------------------|
-| A     | `clk_a`       | Clock for port A                    |
+| A     | `clk`         | Clock for port A                    |
 |       | `addr_a`      | Address input for port A            |
 |       | `data_in_a`   | Input data to be written via port A |
 |       | `we_a`        | Write enable for port A             |
 |       | `re_a`        | Read enable for port A              |
 |       | `data_out_a`  | Read data output from port A        |
-| B     | `clk_b`       | Clock for port B                    |
+| B     | `clk`         | Clock for port B                    |
 |       | `addr_b`      | Address input for port B            |
 |       | `data_in_b`   | Input data to be written via port B |
 |       | `we_b`        | Write enable for port B             |
